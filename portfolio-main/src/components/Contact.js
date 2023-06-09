@@ -56,7 +56,7 @@ export default function Contact() {
             </button>
             <span>
               {sucess
-                ? "Your message has been sent! I'll get back to you soon!"
+                ? "Your message has been sent! Thank you!"
                 : ""}{" "}
             </span>
             <span>{error ? "Something went wrong :(" : ""} </span>
