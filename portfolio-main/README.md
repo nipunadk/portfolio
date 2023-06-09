@@ -19,4 +19,4 @@ You can check information about me, check my projects and get known on what I'm 
 
  ## Application screen shots:
  
- ![Page screenshots](https://raw.githubusercontent.com/PPrzebieda/portfolio/main/src/public/img/pprzebieda.github.io_portfolio_.png)
+ ![Page screenshots](https://github.com/nipunadk/portfolio/blob/v1.0/portfolio-main/src/public/img/preview.PNG)
