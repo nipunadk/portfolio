@@ -14,7 +14,7 @@ export default function Contact() {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_ox3539s",
+        "service_737h1hq",
         "template_e9m2pvb",
         form.current,
         "TllB92PtIX2KGPW-i"
@@ -47,7 +47,7 @@ export default function Contact() {
               required
             />
             <textarea
-              placeholder="Type your message"
+              placeholder="Type your contact and message"
               rows={10}
               name="message"
             />
@@ -56,10 +56,10 @@ export default function Contact() {
             </button>
             <span>
               {sucess
-                ? "Your message has been sent! Thank you!"
+                ? "Your message has been sent !"
                 : ""}{" "}
             </span>
-            <span>{error ? "Something went wrong :(" : ""} </span>
+            <span>{error ? "Something went wrong :( Please use linkedIn/mobile to reach him while we look into it. Email-Team" : ""} </span>
           </form>
           <div className="contact">
             <span>
