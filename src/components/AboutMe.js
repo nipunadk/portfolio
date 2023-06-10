@@ -1,6 +1,7 @@
 import React from "react";
-import bee from "../public/img/bee.png";
+import camera from "../public/img/camera.png";
 import image from "../public/img/coding.png";
+
 
 export default function AboutMe() {
   return (
@@ -10,22 +11,21 @@ export default function AboutMe() {
         <div className="description">
           <h2>About me</h2>
           <div className="text">
-            I am a beginner front-end developer and I am skilled in HTML, CSS
-            and JavaScript web development, as well as the React framework. I am
-            a graduate of Code:Me Academy JavaScript - React module. I am
+            I am a experienced full stack developer and I am skilled in  React
+            and web development, as well as the C# .Net framework. I am
             looking to gain valuable experience in an IT environment and expand
             my competence. I am ready for challenges and eager to learn and
             acquire new skills.
             <br />
-            <br /> I graduated from the AGH University of Science and Technology
-            in Cracow with a degree in Mechanical Engineering with a
-            specialization in Computer Science in Mechanical Engineering.
+            <br /> I graduated from the University of Westminster
+            in United Kingdom with a degree in Software Engineering with a
+            Second Class Hours: First Division.
             <br />
             <br />
             Privately, in addition to developing web applications, I am
-            interested in beekeeping (I have my own apiary), kayaking and
-            off-roading.
-            <img src={bee} />
+            interested in travel photography.
+            <a href="https://www.facebook.com/nipunadkphotography" target= "_blank"><img src={camera} /></a>
+
           </div>
         </div>
       </div>
