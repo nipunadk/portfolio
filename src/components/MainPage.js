@@ -53,7 +53,7 @@ export default function MainPage() {
           <span className="title">Front-End React Developer</span>
           <img src={hiIco} className="hello-ico" alt="hello icon" />
           <div className="description">
-            Hi, I'm Nipuna Gomes. A passionate Front-end React Developer
+            Hi, I'm Nipuna Gomes. A passionate Full-Stack | React Developer
             based in Colombo, Sri Lanka.
             <a href="#contact">
               <img

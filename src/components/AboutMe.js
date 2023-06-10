@@ -13,7 +13,7 @@ export default function AboutMe() {
           <div className="text">
             I am a experienced full stack developer and I am skilled in  React
             and web development, as well as the C# .Net framework. I am
-            looking to gain valuable experience in an IT environment and expand
+            looking to gain more valuable experience in an IT environment and expand
             my competence. I am ready for challenges and eager to learn and
             acquire new skills.
             <br />
@@ -24,7 +24,7 @@ export default function AboutMe() {
             <br />
             Privately, in addition to developing cool web applications, I am
             interested in travel photography.
-            <a href="https://www.facebook.com/nipunadkphotography/photos" target= "_blank" title="Please click to view my pictures albums"><img src={camera} /></a>
+            <a href="https://www.facebook.com/nipunadkphotography/photos" target= "_blank" title="Click to view my collections"><img src={camera} /></a>
 
           </div>
         </div>
