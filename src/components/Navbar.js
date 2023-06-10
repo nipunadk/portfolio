@@ -1,7 +1,7 @@
 import React from "react";
 import menu from "../public/img/hamburger_menu.png";
 
-const name = `<NipunaGomes className="dev"/>`;
+const name = `<NipunaGomes className="reactDev"/>`;
 
 export default function Navbar() {
   return (

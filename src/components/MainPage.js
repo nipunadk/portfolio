@@ -9,8 +9,14 @@ import cssIco from "../public/img/css.png";
 import jsIco from "../public/img/js.png";
 import bootIco from "../public/img/bootstrap.png";
 import reactIco from "../public/img/react.png";
-import threeIco from "../public/img/three.png";
-import avatar from "../public/img/dp1.jpg";
+import redux from "../public/img/redux.png";
+import avatar from "../public/img/dp2.jpg";
+import csharp from "../public/img/csharp1.png";
+import netCore from "../public/img/core.png";
+import mysql from "../public/img/mySql.png";
+import mssql from "../public/img/msSql.png";
+import gitlab from "../public/img/gitlab.png";
+
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
@@ -20,7 +26,12 @@ export default function MainPage() {
   const [js, setJs] = useState("");
   const [boot, setBoot] = useState("");
   const [react, setReact] = useState("");
-  const [three, setThree] = useState("");
+  const [reduxJs, setRedux] = useState("");
+  const [cSharp, setCsharp] = useState("");
+  const [core, setCore] = useState("");
+  const [mySql, setMysql] = useState("");
+  const [msSql, setMsSql] = useState("");
+  const [gitLab, setGitLab] = useState("");
 
   const handleMouseEnter = (e) => {
     if (e.target.id == "HTML") {
@@ -33,9 +44,21 @@ export default function MainPage() {
       setBoot(true);
     } else if (e.target.id == "React") {
       setReact(true);
-    } else if (e.target.id == "Three.js") {
-      setThree(true);
+    } else if (e.target.id == "redux.js") {
+      setRedux(true);
+    } else if (e.target.id == "cSharp") {
+      setCsharp(true);
+    } else if (e.target.id == "core") {
+      setCore(true);
+    } else if (e.target.id == "mySql") {
+      setMysql(true);
+    } else if (e.target.id == "msSql") {
+      setMsSql(true);
+    } else if (e.target.id == "gitlab") {
+      setGitLab(true);
     }
+
+
   };
   const handleMouseLeave = () => {
     setHtml();
@@ -43,17 +66,22 @@ export default function MainPage() {
     setJs();
     setBoot();
     setReact();
-    setThree();
+    setRedux();
+    setCsharp();
+    setCore();
+    setMysql();
+    setMsSql();
+    setGitLab();
   };
   return (
     <div className="section-main" id="home">
       <Navbar />
       <div className="main-page-container">
         <div className="left-container">
-          <span className="title">Front-End React Developer</span>
+          <span className="title">React Developer</span>
           <img src={hiIco} className="hello-ico" alt="hello icon" />
           <div className="description">
-            Hi, I'm Nipuna Gomes. A passionate Front-end React Developer
+            Hi, I'm Nipuna Gomes. A passionate Full-Stack | React Developer
             based in Colombo, Sri Lanka.
             <a href="#contact">
               <img
@@ -63,17 +91,90 @@ export default function MainPage() {
               />
             </a>
           </div>
-          <a
-            href="https://www.linkedin.com/in/nipuna-c-gomes-39500743/"
-            target="_blank"
-          >
-            <img src={lndIco} className="social-ico" alt="linkedin icon" />
-          </a>
-          <a href="https://github.com/nipunadk?tab=repositories" target="_blank">
-            <img src={gitIco} className="social-ico" alt="github icon" />
-          </a>
+          <div>
+            <div className="description">Social:</div>
+            <a
+              href="https://www.linkedin.com/in/nipuna-c-gomes-39500743/"
+              target="_blank"
+            >
+              <img src={lndIco} className="social-ico" alt="linkedin icon" />
+            </a>
+            <a href="https://github.com/nipunadk?tab=repositories" target="_blank">
+              <img src={gitIco} className="social-ico" alt="github icon" />
+            </a>
+          </div>
           <div className="description">Tech Stack:</div>
           <div className="tech-stack-box">
+
+            <div
+              className="tech-stack-single-box"
+              id="React"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img src={reactIco} className="tech-ico2" alt="react icon" />
+              <span>{react ? "React.js" : ""}</span>
+            </div>
+            <div
+              className="tech-stack-single-box"
+              id="redux.js"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img src={redux} className="tech-ico3" alt="redux.js icon" />
+              <span>{reduxJs ? "Redux.js" : ""}</span>
+            </div>
+
+            <div
+              className="tech-stack-single-box"
+              id="core"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img src={netCore} className="tech-ico3" alt=".NetCore" />
+              <span>{core ? ".Net Core" : ""}</span>
+            </div>
+
+            <div
+              className="tech-stack-single-box"
+              id="cSharp"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img src={csharp} className="tech-ico3" alt="c# icon" />
+              <span>{cSharp ? "C#" : ""}</span>
+            </div>
+
+            <div
+              className="tech-stack-single-box"
+              id="msSql"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img src={mssql} className="tech-ico3" alt="MS SQL" />
+              <span>{msSql ? "MS SQL Server" : ""}</span>
+            </div>
+
+            <div
+              className="tech-stack-single-box"
+              id="mySql"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img src={mysql} className="tech-ico3" alt="mySQL" />
+              <span>{mySql ? "mySQL" : ""}</span>
+            </div>
+
+            <div
+              className="tech-stack-single-box"
+              id="gitlab"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img src={gitlab} className="tech-ico3" alt="GitLab" />
+              <span>{gitLab ? "GitLab" : ""}</span>
+            </div>
+
             <div
               className="tech-stack-single-box"
               id="HTML"
@@ -110,24 +211,7 @@ export default function MainPage() {
               <img src={bootIco} className="tech-ico2" alt="bootstrap icon" />
               <span>{boot ? "Bootstrap" : ""}</span>
             </div>
-            <div
-              className="tech-stack-single-box"
-              id="React"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
-              <img src={reactIco} className="tech-ico2" alt="react icon" />
-              <span>{react ? "React.js" : ""}</span>
-            </div>
-            <div
-              className="tech-stack-single-box"
-              id="Three.js"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
-              <img src={threeIco} className="tech-ico3" alt="three.js icon" />
-              <span>{three ? "Three.js" : ""}</span>
-            </div>
+
           </div>
         </div>
         <div className="right-container">
