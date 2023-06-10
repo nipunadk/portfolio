@@ -1,8 +1,7 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import mobileIcon from "../public/img/mobileIcon.png";
 import emailIcon from "../public/img/mailIco.png";
 import emailjs from "@emailjs/browser";
-import avatar from "../public/img/dp2.jpg";
 
 import {toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -63,10 +62,10 @@ export default function Contact() {
           </form>
           <div className="contact">
             <span>
-              <img src={mobileIcon} /> +94 77 24 22 777
+              <img src={mobileIcon} alt="mobile" /> +94 77 24 22 777
             </span>
             <span>
-              <img src={emailIcon} ></img>
+              <img src={emailIcon}  alt="email"></img>
               <a
                 href="mailto:nipunadk@gmal.com"
                 target="_blank"

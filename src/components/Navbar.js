@@ -10,7 +10,7 @@ export default function Navbar() {
         <a href="#home">
           <div className="nav-logo">{name}</div>
         </a>
-        <img src={menu} className="hamburger-menu" />
+        <img src={menu} className="hamburger-menu"  alt="hamburger-menu"/>
         <ul>
           <li>
             <a href="#home">Home</a>

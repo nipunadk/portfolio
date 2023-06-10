@@ -24,7 +24,7 @@ export default function AboutMe() {
             <br />
             Privately, in addition to developing cool web applications, I am
             interested in travel photography.
-            <a href="https://www.facebook.com/nipunadkphotography/photos"  rel="noreferrer" target= "_blank" title="Click to view my collections" alt="nipuna dk phography FB page"><img src={camera} /></a>
+            <a href="https://www.facebook.com/nipunadkphotography/photos"  rel="noreferrer" target= "_blank" title="Click to view my collections"><img src={camera} alt="camera" /></a>
           </div>
         </div>
       </div>

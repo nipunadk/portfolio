@@ -34,27 +34,27 @@ export default function MainPage() {
   const [gitLab, setGitLab] = useState("");
 
   const handleMouseEnter = (e) => {
-    if (e.target.id == "HTML") {
+    if (e.target.id === "HTML") {
       setHtml(true);
-    } else if (e.target.id == "CSS") {
+    } else if (e.target.id === "CSS") {
       setCss(true);
-    } else if (e.target.id == "JavaScript") {
+    } else if (e.target.id === "JavaScript") {
       setJs(true);
-    } else if (e.target.id == "Bootstrap") {
+    } else if (e.target.id === "Bootstrap") {
       setBoot(true);
-    } else if (e.target.id == "React") {
+    } else if (e.target.id === "React") {
       setReact(true);
-    } else if (e.target.id == "redux.js") {
+    } else if (e.target.id === "redux.js") {
       setRedux(true);
-    } else if (e.target.id == "cSharp") {
+    } else if (e.target.id === "cSharp") {
       setCsharp(true);
-    } else if (e.target.id == "core") {
+    } else if (e.target.id === "core") {
       setCore(true);
-    } else if (e.target.id == "mySql") {
+    } else if (e.target.id === "mySql") {
       setMysql(true);
-    } else if (e.target.id == "msSql") {
+    } else if (e.target.id === "msSql") {
       setMsSql(true);
-    } else if (e.target.id == "gitlab") {
+    } else if (e.target.id === "gitlab") {
       setGitLab(true);
     }
 
@@ -96,10 +96,13 @@ export default function MainPage() {
             <a
               href="https://www.linkedin.com/in/nipuna-c-gomes-39500743/"
               target="_blank"
+              rel="noreferrer"
             >
               <img src={lndIco} className="social-ico" alt="linkedin icon" />
             </a>
-            <a href="https://github.com/nipunadk?tab=repositories" target="_blank">
+            <a href="https://github.com/nipunadk?tab=repositories" 
+            target="_blank" 
+            rel="noreferrer">
               <img src={gitIco} className="social-ico" alt="github icon" />
             </a>
           </div>
