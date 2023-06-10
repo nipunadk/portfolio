@@ -67,11 +67,11 @@ export default function Contact() {
             <span>
               <img src={emailIcon}  alt="email"></img>
               <a
-                href="mailto:nipunadk@gmal.com"
+                href="mailto:dkcngomes@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                nipunadk@gmail.com
+                dkcngomes@gmail.com
               </a>
             </span>
           </div>
