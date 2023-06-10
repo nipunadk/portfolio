@@ -64,12 +64,12 @@ export default function MainPage() {
             </a>
           </div>
           <a
-            href="https://www.linkedin.com/in/przemys%C5%82aw-przebi%C4%99da/"
+            href="https://www.linkedin.com/in/nipuna-c-gomes-39500743/"
             target="_blank"
           >
             <img src={lndIco} className="social-ico" alt="linkedin icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/nipunadk?tab=repositories" target="_blank">
             <img src={gitIco} className="social-ico" alt="github icon" />
           </a>
           <div className="description">Tech Stack:</div>
