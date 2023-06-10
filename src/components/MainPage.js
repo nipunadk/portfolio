@@ -78,7 +78,7 @@ export default function MainPage() {
       <Navbar />
       <div className="main-page-container">
         <div className="left-container">
-          <span className="title">Front-End React Developer</span>
+          <span className="title">React Developer</span>
           <img src={hiIco} className="hello-ico" alt="hello icon" />
           <div className="description">
             Hi, I'm Nipuna Gomes. A passionate Full-Stack | React Developer
@@ -91,17 +91,20 @@ export default function MainPage() {
               />
             </a>
           </div>
-          <a
-            href="https://www.linkedin.com/in/nipuna-c-gomes-39500743/"
-            target="_blank"
-          >
-            <img src={lndIco} className="social-ico" alt="linkedin icon" />
-          </a>
-          <a href="https://github.com/nipunadk?tab=repositories" target="_blank">
-            <img src={gitIco} className="social-ico" alt="github icon" />
-          </a>
+          <div>
+            <div className="description">Social:</div>
+            <a
+              href="https://www.linkedin.com/in/nipuna-c-gomes-39500743/"
+              target="_blank"
+            >
+              <img src={lndIco} className="social-ico" alt="linkedin icon" />
+            </a>
+            <a href="https://github.com/nipunadk?tab=repositories" target="_blank">
+              <img src={gitIco} className="social-ico" alt="github icon" />
+            </a>
+          </div>
           <div className="description">Tech Stack:</div>
-          <div className="tech-stack-box"> 
+          <div className="tech-stack-box">
 
             <div
               className="tech-stack-single-box"
