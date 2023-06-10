@@ -19,12 +19,12 @@ export default function AboutMe() {
             <br />
             <br /> I graduated from the University of Westminster
             in United Kingdom with a degree in Software Engineering with a
-            Second Class Hours: First Division.
+            (Second Class Hours: First Division).
             <br />
             <br />
-            Privately, in addition to developing web applications, I am
+            Privately, in addition to developing cool web applications, I am
             interested in travel photography.
-            <a href="https://www.facebook.com/nipunadkphotography" target= "_blank"><img src={camera} /></a>
+            <a href="https://www.facebook.com/nipunadkphotography/photos" target= "_blank" title="Please click to view my pictures albums"><img src={camera} /></a>
 
           </div>
         </div>
