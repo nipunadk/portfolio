@@ -10,7 +10,7 @@ import jsIco from "../public/img/js.png";
 import bootIco from "../public/img/bootstrap.png";
 import reactIco from "../public/img/react.png";
 import threeIco from "../public/img/three.png";
-import avatar from "../public/img/dp1.jpg";
+import avatar from "../public/img/dp2.jpg";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 

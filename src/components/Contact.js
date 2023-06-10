@@ -3,7 +3,7 @@ import mobileIcon from "../public/img/mobileIcon.png";
 import emailIcon from "../public/img/mailIco.png";
 import emailjs from "@emailjs/browser";
 
-import avatar from "../public/img/avatar.png";
+import avatar from "../public/img/dp2.jpg";
 
 export default function Contact() {
   const form = useRef();
