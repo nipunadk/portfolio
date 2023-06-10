@@ -2,13 +2,14 @@ import React, { useRef, useState } from "react";
 import mobileIcon from "../public/img/mobileIcon.png";
 import emailIcon from "../public/img/mailIco.png";
 import emailjs from "@emailjs/browser";
-
 import avatar from "../public/img/dp2.jpg";
+
+import {toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+toast.configure(); 
 
 export default function Contact() {
   const form = useRef();
-  const [sucess, setSucess] = useState(false);
-  const [error, setError] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -25,12 +26,12 @@ export default function Contact() {
           allInputs.forEach(singleInput => singleInput.value = '');
           var textArea = document.querySelectorAll('textarea');
           textArea.forEach(singleInput => singleInput.value = '');
-
-          setSucess(true);
+          toast('Your email has been sent !')
+          
         },
         (error) => {
-          //console.log(error.text);
-          setError(true);
+          toast.error('Something went wrong :( Please use LinkedIn/mobile to reach')
+          
         }
       );
   };
@@ -56,14 +57,9 @@ export default function Contact() {
               name="message"
             />
             <button type="submit" value="Send">
-              Send
+              Send Email
             </button>
-            <span>
-              {sucess
-                ? "Your message has been sent !"
-                : ""}{" "}
-            </span>
-            <span>{error ? "Something went wrong :( Please use linkedIn/mobile to reach him while we look into it. Email-Team" : ""} </span>
+            
           </form>
           <div className="contact">
             <span>
