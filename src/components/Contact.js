@@ -63,7 +63,7 @@ export default function Contact() {
           </form>
           <div className="contact">
             <span>
-              <img src={mobileIcon} /> +94772422777
+              <img src={mobileIcon} /> +94 77 24 22 777
             </span>
             <span>
               <img src={emailIcon} ></img>
