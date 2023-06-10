@@ -21,11 +21,15 @@ export default function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          var allInputs = document.querySelectorAll('input');
+          allInputs.forEach(singleInput => singleInput.value = '');
+          var textArea = document.querySelectorAll('textarea');
+          textArea.forEach(singleInput => singleInput.value = '');
+
           setSucess(true);
         },
         (error) => {
-          console.log(error.text);
+          //console.log(error.text);
           setError(true);
         }
       );
