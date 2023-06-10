@@ -10,7 +10,7 @@ import jsIco from "../public/img/js.png";
 import bootIco from "../public/img/bootstrap.png";
 import reactIco from "../public/img/react.png";
 import threeIco from "../public/img/three.png";
-import avatar from "../public/img/avatar.png";
+import avatar from "../public/img/dp1.jpg";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
@@ -64,12 +64,12 @@ export default function MainPage() {
             </a>
           </div>
           <a
-            href="https://www.linkedin.com/in/przemys%C5%82aw-przebi%C4%99da/"
+            href="https://www.linkedin.com/in/nipuna-c-gomes-39500743/"
             target="_blank"
           >
             <img src={lndIco} className="social-ico" alt="linkedin icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/nipunadk?tab=repositories" target="_blank">
             <img src={gitIco} className="social-ico" alt="github icon" />
           </a>
           <div className="description">Tech Stack:</div>
