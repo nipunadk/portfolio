@@ -1,24 +1,18 @@
 # Portfolio
 
 Welcome to My Portfolio! You can check live version here:<br /><br />
-<<<<<<< HEAD
-:point_right: [[https://github.com/nipunadk/portfolio](https://nipunadk.netlify.app)/](https://github.com/nipunadk/portfolio/):point_left: <br /><br />
-=======
-:point_right: [https://nipunadk.netlify.app/](https://nipunadk.netlify.app/):point_left: <br /><br />
->>>>>>> master
+
+:point_right: [[https://github.com/nipunadk/portfolio](https://nipunadk.netlify.app)/] :point_left: <br /><br />
 
 You can check information about me, check my projects and get known on what I'm currently working on. Also do not hestitate to contact me via form in contact section! :v:
-
 
 ## Build with:
 
 + ReactJS
 + SCSS
-+ Three.js
 
 ## Features:
 + Personal information
-+ My projects information
 + Contact form
 
  ## Application screen shots:
