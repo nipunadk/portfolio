@@ -19,7 +19,7 @@ export default function AboutMe() {
             <br />
             <br /> I graduated from the University of Westminster
             in United Kingdom with a degree in Software Engineering with a
-            (Second Class Hours: First Division).
+            (Second Class Honours: First Division).
             <br />
             <br />
             Privately, in addition to developing cool web applications, I am
