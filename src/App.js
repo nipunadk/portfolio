@@ -11,6 +11,9 @@ function App() {
       <AboutMe />
       {/* <Projects /> */}
       <Contact />
+      <div style={{ textAlign: "center" }} >
+        <footer> <small>&copy; Copyright {(new Date().getFullYear())}, Nipuna Gomes.</small> </footer>
+      </div>
     </div>
   );
 }
