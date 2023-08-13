@@ -25,7 +25,7 @@ export default function MainPage() {
   const [html, setHtml] = useState("");
   const [css, setCss] = useState("");
   const [js, setJs] = useState("");
- /*  const [boot, setBoot] = useState(""); */
+  /*  const [boot, setBoot] = useState(""); */
   const [react, setReact] = useState("");
   const [reduxJs, setRedux] = useState("");
   const [cSharp, setCsharp] = useState("");
@@ -42,9 +42,9 @@ export default function MainPage() {
       setCss(true);
     } else if (e.target.id === "JavaScript") {
       setJs(true);
-    } else if (e.target.id === "Bootstrap") {
+    } /* else if (e.target.id === "Bootstrap") {
       setBoot(true);
-    } else if (e.target.id === "React") {
+    } */ else if (e.target.id === "React") {
       setReact(true);
     } else if (e.target.id === "redux.js") {
       setRedux(true);
@@ -54,9 +54,9 @@ export default function MainPage() {
       setCore(true);
     } else if (e.target.id === "mySql") {
       setMysql(true);
-    } else if (e.target.id === "msSql") {
+    } /* else if (e.target.id === "msSql") {
       setMsSql(true);
-    } else if (e.target.id === "gitlab") {
+    }  */else if (e.target.id === "gitlab") {
       setGitLab(true);
     } else if (e.target.id === "Next") {
       setNext(true);
@@ -67,13 +67,13 @@ export default function MainPage() {
     setHtml();
     setCss();
     setJs();
-    setBoot();
+    /* setBoot(); */
     setReact();
     setRedux();
     setCsharp();
     setCore();
     setMysql();
-    setMsSql();
+    /* setMsSql(); */
     setGitLab();
     setNext();
 
@@ -160,7 +160,7 @@ export default function MainPage() {
               <img src={csharp} className="tech-ico3" alt="c# icon" />
               <span>{cSharp ? "C#" : ""}</span>
             </div>
-            &nbsp; 
+            &nbsp;
             <div
               className="tech-stack-single-box"
               id="mySql"
@@ -170,7 +170,7 @@ export default function MainPage() {
               <img src={mysql} className="tech-ico3" alt="mySQL" />
               <span>{mySql ? "mySQL" : ""}</span>
             </div>
-              
+
             <div
               className="tech-stack-single-box"
               id="gitlab"
