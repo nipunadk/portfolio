@@ -16,6 +16,8 @@ import netCore from "../public/img/core.png";
 import mysql from "../public/img/mySql.png";
 import mssql from "../public/img/msSql.png";
 import gitlab from "../public/img/gitlab.png";
+import nextjs from "../public/img/next.png";
+
 
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
@@ -32,6 +34,7 @@ export default function MainPage() {
   const [mySql, setMysql] = useState("");
   const [msSql, setMsSql] = useState("");
   const [gitLab, setGitLab] = useState("");
+  const [next, setNext] = useState("");
 
   const handleMouseEnter = (e) => {
     if (e.target.id === "HTML") {
@@ -56,8 +59,9 @@ export default function MainPage() {
       setMsSql(true);
     } else if (e.target.id === "gitlab") {
       setGitLab(true);
+    } else if (e.target.id === "Next") {
+      setNext(true);
     }
-
 
   };
   const handleMouseLeave = () => {
@@ -72,6 +76,8 @@ export default function MainPage() {
     setMysql();
     setMsSql();
     setGitLab();
+    setNext();
+
   };
   return (
     <div className="section-main" id="home">
@@ -100,9 +106,9 @@ export default function MainPage() {
             >
               <img src={lndIco} className="social-ico" alt="linkedin icon" />
             </a>
-            <a href="https://github.com/nipunadk?tab=repositories" 
-            target="_blank" 
-            rel="noreferrer">
+            <a href="https://github.com/nipunadk?tab=repositories"
+              target="_blank"
+              rel="noreferrer">
               <img src={gitIco} className="social-ico" alt="github icon" />
             </a>
           </div>
@@ -127,7 +133,15 @@ export default function MainPage() {
               <img src={redux} className="tech-ico3" alt="redux.js icon" />
               <span>{reduxJs ? "Redux.js" : ""}</span>
             </div>
-
+            <div
+              className="tech-stack-single-box"
+              id="Next"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img src={nextjs} className="tech-ico2" alt="next js icon" />
+              <span>{next ? "NEXT.js" : ""}</span>
+            </div>
             <div
               className="tech-stack-single-box"
               id="core"
@@ -147,17 +161,7 @@ export default function MainPage() {
               <img src={csharp} className="tech-ico3" alt="c# icon" />
               <span>{cSharp ? "C#" : ""}</span>
             </div>
-
-            <div
-              className="tech-stack-single-box"
-              id="msSql"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
-              <img src={mssql} className="tech-ico3" alt="MS SQL" />
-              <span>{msSql ? "MS SQL Server" : ""}</span>
-            </div>
-
+            &nbsp; 
             <div
               className="tech-stack-single-box"
               id="mySql"
@@ -167,7 +171,7 @@ export default function MainPage() {
               <img src={mysql} className="tech-ico3" alt="mySQL" />
               <span>{mySql ? "mySQL" : ""}</span>
             </div>
-
+              
             <div
               className="tech-stack-single-box"
               id="gitlab"
@@ -205,16 +209,6 @@ export default function MainPage() {
               <img src={jsIco} className="tech-ico1" alt="js icon" />
               <span>{js ? "JavaScript" : ""}</span>
             </div>
-            <div
-              className="tech-stack-single-box"
-              id="Bootstrap"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
-              <img src={bootIco} className="tech-ico2" alt="bootstrap icon" />
-              <span>{boot ? "Bootstrap" : ""}</span>
-            </div>
-
           </div>
         </div>
         <div className="right-container">
