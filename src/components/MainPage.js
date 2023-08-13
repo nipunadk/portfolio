@@ -25,13 +25,13 @@ export default function MainPage() {
   const [html, setHtml] = useState("");
   const [css, setCss] = useState("");
   const [js, setJs] = useState("");
-  const [boot, setBoot] = useState("");
+ /*  const [boot, setBoot] = useState(""); */
   const [react, setReact] = useState("");
   const [reduxJs, setRedux] = useState("");
   const [cSharp, setCsharp] = useState("");
   const [core, setCore] = useState("");
   const [mySql, setMysql] = useState("");
-  const [msSql, setMsSql] = useState("");
+  /* const [msSql, setMsSql] = useState(""); */
   const [gitLab, setGitLab] = useState("");
   const [next, setNext] = useState("");
 
