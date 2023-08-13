@@ -7,14 +7,13 @@ import gitIco from "../public/img/githubIco.png";
 import htmlIco from "../public/img/html.png";
 import cssIco from "../public/img/css.png";
 import jsIco from "../public/img/js.png";
-import bootIco from "../public/img/bootstrap.png";
+/* import bootIco from "../public/img/bootstrap.png"; */
 import reactIco from "../public/img/react.png";
 import redux from "../public/img/redux.png";
 import avatar from "../public/img/dp2.jpg";
 import csharp from "../public/img/csharp1.png";
 import netCore from "../public/img/core.png";
 import mysql from "../public/img/mySql.png";
-import mssql from "../public/img/msSql.png";
 import gitlab from "../public/img/gitlab.png";
 import nextjs from "../public/img/next.png";
 
